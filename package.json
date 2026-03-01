@@ -1,0 +1,22 @@
+{
+  "name": "mcp-browser-examples",
+  "version": "1.0.0",
+  "description": "Practical examples for AI browser automation using MCP",
+  "scripts": {
+    "screenshot": "node examples/01-basic-screenshot/index.js",
+    "form": "node examples/02-form-automation/index.js",
+    "extract": "node examples/03-data-extraction/index.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "keywords": ["mcp", "browser-automation", "puppeteer", "ai-agent", "anchorbrowser"],
+  "author": "Mehran Akila",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
